@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Biblioteca do bairro reabre com programação gratuita">
+    <title>Introdução a Listas</title>
+</head>
+<body>
+<h1>Listas Multiplas</h1>
+<H2>Materiais Escolares</H2>
+<ul>
+    <li>Lápis</li>
+    <li>Caderno</li>
+    <li title="Opcional">Garrafa de Agua</li>
+    <li title="Opcional">Borracha</li>
+</ul>
+<h2>Materiais para oficina</h2>
+<ul>
+    <li>Discos de freio</li>
+    <li>Molas de suspensão</li>
+    <li>Retrovisores</li>
+</ul>
+<h2>Generos de Literatura a serem explorados</h2>
+<ul>
+    <li>Romance</li>
+    <li>Ação</li>
+    <li>Sci-fi</li>
+    <li>Biopunk</li>
+</ul>
+<h2>Como reservar um livro</h2>
+<ol type="1" reversed start="9">
+    <li>Escolha o livro no catálogo</li>
+    <li>Preencha o formulario de reserva</li>
+    <li value="5">Aguarde a confirmação da biblioteca</li>
+    <li>21521</li>
+    <li>21521</li>
+    <li>21521</li>
+    <li>21521</li>
+    <li>21521</li>
+    <li>21521</li>
+    
+</ol>
+
+
+</body>
+</html>
