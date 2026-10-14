@@ -10,6 +10,13 @@
 </head>
 <body>
 <h1 id="home">Listas Multiplas</h1>
+
+<h2>Navegação</h2>
+<ul>
+    <li><a href="#video">Video</a></li>
+    <li><a href="#lista">Lista</a></li>
+</ul>
+
 <H2>Materiais Escolares</H2>
 <ul>
     <li>Lápis</li>
@@ -31,7 +38,7 @@
     <li>Biopunk</li>
 </ul>
 <h2>Como reservar um livro</h2>
-<ol type="I" reversed start="100">
+<ol type="I" reversed start="100" id="lista">
     <li>Escolha o livro no catálogo</li>
     <li value="50">Preencha o formulario de reserva</li>
     <li value="10">Aguarde a confirmação da biblioteca</li>
@@ -65,7 +72,7 @@
 </nav>
 <figure>
     <img title="Pink Floyd Album Cover"  height="130"  width="150" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Optical-dispersion.png/500px-Optical-dispersion.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" alt="Erro ao carregar imagem">
-    <img title="Arrogante" height="275"  width="225" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu1l6lgz-YvvaN3IdV6L_h4HDNbVtDsKNPRjODRzYSxmo03Pk6thBOns8&s=10" alt="Erro ao carregar imagem">
+    <img title="Arrogante" height="275"  width="575" src="https://wallpapercave.com/wp/wp16593143.webp" alt="Erro ao carregar imagem">
     <figcaption>Correlação</figcaption>
 </figure>
 
@@ -75,11 +82,8 @@
 <p><a href="musica.mp3" target="_blank">Clique para abrir a musica</a></p>
 
 <h2 id="video">Meu projeto em video</h2>
-<video controls preload="metadata"
-    poster="einar_turnaround.png"
-    width="620"
-    height="400"
-    src="charge.mp4">
+<video controls preload="metadata" poster="einar_turnaround.png" width="620" height="400" src="charge.mp4">
+    <track src="videosubs.vtt" kind="captions" srclang="pt-br" label="Português" default></track>
     Não foi possivel carregar o video por falta de compatibilidade com seu navegador
 </video>
 
